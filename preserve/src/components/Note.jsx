@@ -1,4 +1,5 @@
 import React from "react";
+import HighlightOffIcon from "@material-ui/icons/HighlightOff";
 
 function Note(props) {
   return (
@@ -10,7 +11,7 @@ function Note(props) {
           props.onDelete(props.id);
         }}
       >
-        DELETE
+        <HighlightOffIcon />
       </button>
     </div>
   );
